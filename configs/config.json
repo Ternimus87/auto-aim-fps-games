@@ -1,0 +1,9 @@
+{
+    "windowName" : "Apex Legends",
+    "classNamesPath" : "configs/coco.names",
+    "yolov7WeightPath" : "models/trainer.onnx",
+    "mode" : "debug",
+    "debugWindowSize":[960, 560],
+    "pythonHome":"C:/Users/xuaii/miniconda3",
+    "pipeCache":20
+}
