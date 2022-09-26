@@ -1,0 +1,90 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: 中间目录(x64\Release\)包含从另一个项目(AutoAim-ncnn.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+C:\Users\xuaii\Downloads\TensorRT-8.4.1.5\include\NvInfer.h(5349,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(134,26): warning C4244: “*=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(135,31): warning C4244: “*=”: 从“double”转换到“__int64”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(140,45): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(152,19): warning C4244: “初始化”: 从“const float”转换到“int”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(153,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(163,65): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(163,52): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(164,48): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(164,35): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\yolov7.h(37,35): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\yolov7.h(37,22): warning C4244: “初始化”: 从“std::streamoff”转换到“const int”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\yolov7.h(127,49): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\yolov7.h(128,119): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\yolov7.h(128,68): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\yolov7.h(129,119): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\yolov7.h(129,68): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\main.cpp(60,42): warning C4305: “参数”: 从“int”到“bool”截断
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\main.cpp(41,25): warning C4101: “e”: 未引用的局部变量
+  utils.cpp
+C:\Users\xuaii\Downloads\TensorRT-8.4.1.5\include\NvInfer.h(5349,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(134,26): warning C4244: “*=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(135,31): warning C4244: “*=”: 从“double”转换到“__int64”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(140,45): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(152,19): warning C4244: “初始化”: 从“const float”转换到“int”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(153,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(163,65): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(163,52): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(164,48): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\AutoAim-ncnn\utils.h(164,35): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+  正在生成代码
+  1 of 1478 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  AutoAim-ncnn.vcxproj -> C:\Users\xuaii\Desktop\Workspace\AutoAim-tensorrt-GDI\x64\Release\AutoAim-tensorrt.exe
