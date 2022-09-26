@@ -6,7 +6,7 @@
 
 * Dataset : https://app.roboflow.com/project-b7ksq/apex-trainer/1
 
-* Deploy : ONNXRuntime
+* Deploy : ncnn / tensorRT
 
 * Mouse Controller : win32api.mouse_event
 
