@@ -1,4 +1,4 @@
-# AutoAim for Apex Legends
+# AutoAim for FPS Games
 
 ### 模型训练：参考官方Yolov7 repo
 
