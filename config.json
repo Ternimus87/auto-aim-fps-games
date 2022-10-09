@@ -1,9 +1,0 @@
-{
-    "windowName" : "Apex Legends",
-    "classNamesPath" : "configs/coco.names",
-    "debug" : true,
-    "pythonHome":"Python39/",
-    "modelPath" : "yolov7-tiny-nms.trt",
-    "mouseMovementDelay":3,
-    "receptiveField":150
-}
