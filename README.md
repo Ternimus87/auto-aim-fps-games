@@ -21,20 +21,19 @@
     win32api.mouse_event(win32con.MOUSEEVENTF_MOVE, x, y, 0, 0) 操作需要**管理员权限**
     需要修改的参数：
 
-    FOV：真实 FOV，与游戏内FOV不一样 需要在这里查询
-    SENS: 游戏内灵敏度
-    ADS 每一个倍镜的灵敏度（不同倍镜的灵敏度是不一样的，没有实现切换倍镜的逻辑，默认按照 1 倍处理的但是影响不大，如果需要可以自行修改python脚本添加功能）
+    * FOV：真实 FOV，与游戏内FOV不一样 需要在这里查询
+    * SENS: 游戏内灵敏度
+    * ADS 每一个倍镜的灵敏度（不同倍镜的灵敏度是不一样的，没有实现切换倍镜的逻辑，默认按照 1 倍处理的但是影响不大，如果需要可以自行修改python脚本添加功能）
 
 ### 模型训练
-    可以自己训练模型然后 导出到 .rtr
-
-    ```shell
-    wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt
-    python export.py --weights ./yolov7-tiny.pt --grid --end2end --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640
-    git clone https://github.com/Linaom1214/tensorrt-python.git
-    python ./tensorrt-python/export.py -o yolov7-tiny.onnx -e yolov7-tiny-nms.trt -p fp16
-    UI 选项
-    ```
+```shell
+# 可以自己训练模型然后 导出到 .rtr
+wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt
+python export.py --weights ./yolov7-tiny.pt --grid --end2end --simplify --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640
+git clone https://github.com/Linaom1214/tensorrt-python.git
+python ./tensorrt-python/export.py -o yolov7-tiny.onnx -e yolov7-tiny-nms.trt -p fp16
+UI 选项
+```
 
 ### UI选项
     Inference ： 是否开启推理（检测目标）
