@@ -7,12 +7,12 @@
     ```json
 
     {
-    "windowName" : "Apex Legends", // 目标窗口名称
-    "pythonHome":"Python39/", // 本地python环境或者，release版本中自带的python环境
-    "modelPath" : "models/yolov7-tiny-11w-320x320.trt", // 模型文件
-    "mouseMovementDelay":0, // 鼠标移动事件与捕获下一帧屏幕之间的间隔 单位ms
-    "debug" : true, // 无用参数，忘记删了
-    "debugWindowSize": 320 // 无用参数，忘记删了
+    "windowName" : "Apex Legends", # 目标窗口名称
+    "pythonHome":"Python39/", # 本地python环境或者，release版本中自带的python环境
+    "modelPath" : "models/yolov7-tiny-11w-320x320.trt", # 模型文件
+    "mouseMovementDelay":0, # 鼠标移动事件与捕获下一帧屏幕之间的间隔 单位ms
+    "debug" : true, # 无用参数，忘记删了
+    "debugWindowSize": 320 # 无用参数，忘记删了
     }
     ```
 2. 修改 core.py
